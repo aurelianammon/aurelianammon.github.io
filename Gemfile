@@ -1,3 +1,9 @@
+gem "github-pages", "~> 219", group: :jekyll_plugins
+
+domain: aurelianammon.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://aurelianammon.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /aurelianammon.github.io/      # place folder name if the site is served in a subfolder
+
 source "https://rubygems.org"
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -7,7 +13,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.2.1"
+# gem "jekyll", "~> 4.2.1"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
